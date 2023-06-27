@@ -1,0 +1,12 @@
+.about-content{
+  h3{
+    color: hsl(var(--base));
+  }
+}
+
+@media(max-width:425px){
+  .why-choose_item{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
